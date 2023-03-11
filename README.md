@@ -1,6 +1,6 @@
 <p align="center"><img src="https://raw.githubusercontent.com/UnderCurve/TextDeck/main/logo.png" height="150" align="center"></p>
 
- # Setup
+ # Client Setup (Raspberry Pi)
 
 ### Main install
  1. Get raspbian lite 32 or 64 bit and flash it onto a sd card.
