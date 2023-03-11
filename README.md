@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/UnderCurve/TextDeck/main/logo.png" height="100">
+<img src="https://raw.githubusercontent.com/UnderCurve/TextDeck/main/logo.png" height="100" align="center">
 
  # Setup
 
