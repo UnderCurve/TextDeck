@@ -8,7 +8,7 @@ const commands = JSON.parse(fs.readFileSync('commands.json'));
 
 // deepcode ignore NoRateLimitingForExpensiveWebOperation: Should not be port forwarded
 app.get('/*', (req, res) => {
-    const key = req.path.split("/")[1];
+    const key = req.path.split("/")[1].toLocaleLowerCase();
     console.log(`Received: ${key}`);
     if (key in commands) {
         const command = commands[key];
