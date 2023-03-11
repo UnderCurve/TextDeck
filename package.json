@@ -1,0 +1,31 @@
+{
+  "name": "textdeck",
+  "version": "1.0.0",
+  "description": "Control your computer with your raspberry pi.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnderCurve/TextDeck.git"
+  },
+  "keywords": [
+    "TextDeck",
+    "Deck",
+    "Text",
+    "Stream",
+    "StreamDeck"
+  ],
+  "author": "UnderCurve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnderCurve/TextDeck/issues"
+  },
+  "homepage": "https://github.com/UnderCurve/TextDeck#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.18.2"
+  }
+}
