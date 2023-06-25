@@ -29,3 +29,9 @@ This isn't required but it is recommended.
     4. but replace `/home/deck/` with `/home/<your username>`.
     5. then press `ctrl + x` then `y` then press `ENTER`.
     6. then your done with the setup.
+# Server Setup (Main PC)
+### install
+1. Download and install [node.js](https://nodejs.org)
+2. Download the repo and run `npm install` in the dir
+3. Run `node .`
+4. Start up the client
